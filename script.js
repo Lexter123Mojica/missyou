@@ -7,7 +7,9 @@ const noBtn = document.querySelector('.no-btn');
 const noBtnRect = noBtn.getBoundingClientRect();
 
 yesBtn.addEventListener('click', () =>{
-    question.innerHTML = 'I miss you too :>';
+    question.innerHTML = 'hehe, kinikilig ako, miss you more, love you mwa mwa 	&#128538;';
+    var span = document.getElementsByClassName("hideme");
+        span.parentNode.removeChild(span);
 });
 
 noBtn.addEventListener('mouseover', () => {

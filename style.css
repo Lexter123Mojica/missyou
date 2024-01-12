@@ -12,14 +12,14 @@ body {
    justify-content: center;
    align-items: center;
    min-height: 100vh;
-   background: darkgray;
+   background: darkorchid;
 }
 
 .wrapper {
    position: relative;
    width: 600px;
    height: 400px;
-   background: beige;
+   background: purple;
    border-radius: 20px;
    display: flex;
    justify-content: center;
